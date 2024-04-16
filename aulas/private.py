@@ -1,6 +1,6 @@
 class MyClass:
 
-    def registry(self, ) -> None:
+    def registry(self) -> None:
         print('Start process')
         self.__verify()  # Aqui dentro de um método da classe funciona
         self.__verify_registry()
